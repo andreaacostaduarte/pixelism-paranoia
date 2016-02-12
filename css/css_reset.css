@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+body
+{
+	color: #000000;
+	background: #FFFFFF;
+}
+
+html, body, div, span, applet, object, iframe, form, h1, h2, h3, h4, h5, h6, p, blockquote, a, a:link, a:visited, em, font, img, small, strike, samp, strong, sub, sup, label, table, caption, tbody, tfoot, thead, tr, th, td 
+{ 
+	margin: 0; 
+	padding: 0; 
+	border: 0;
+	vertical-align: baseline;
+}
+
+table
+{ 
+	border-collapse: collapse; 
+	border-spacing: 0; 
+}
+ 
+caption, th, td
+{ 
+	text-align: left; 
+	font-weight: normal; 
+}
+
+/* ---------------------------------------------------------------------------------------------- */
+/* -------------------------------------- STANDARD CLASSES -------------------------------------- */
+
+.clear 					{ clear: both; line-height: 1px; height: 1px; }
+
+.clearfix:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
+.clearfix				{ display: inline-block; }
+
+/* Hides from IE-mac \*/
+* html .clearfix 		{ height: 1%; }
+.clearfix 				{ display: block; }
+/* End hide from IE-mac */
+
+.fl-left 				{ float: left; }
+.fl-right 				{ float: right; }
+
+.hide					{ display: none; }
+.show					{ display: block; }
