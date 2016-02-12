@@ -1,0 +1,2 @@
+# pixelism-paranoia
+Wordpress Theme
